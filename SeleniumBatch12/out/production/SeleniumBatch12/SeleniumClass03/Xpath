@@ -40,3 +40,24 @@ Starts-with will identify the element with partial starting value
 Example: //button[starts-with(@data-testid, 'royal')]
 
 ends-with was used in xpath 1.0, we are using 2.0 and this method is not available
+
+<div> - division
+<img>- image
+<h>--header
+<p>--paragraph
+<li>--list
+<ur>--unordered list
+<or>--ordered list
+
+Advanced Xpath
+is based on parent and child, sibling relationships
+
+identifying elements by following sibling
+//tagname[@attribute='attribute value']/following-sibling::tagname
+
+
+
+//span[text()='& Orders']/preceding-sibling::span
+
+Identifying elements by parents
+//tagname
